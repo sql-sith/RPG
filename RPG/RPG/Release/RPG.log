@@ -1,0 +1,33 @@
+﻿Build started 3/7/2013 5:45:37 PM.
+     1>Project "C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\RPG\RPG.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\Release\".
+       InitializeBuildStatus:
+         Creating "Release\RPG.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt fighter_character.cpp player_character.cpp RPG_driver.cpp
+         fighter_character.cpp
+         player_character.cpp
+         RPG_driver.cpp
+     1>RPG_driver.cpp(41): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\Release\RPG.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\RPG.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\Release\RPG.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\Release\RPG.lib" /MACHINE:X86 Release\fighter_character.obj
+         Release\player_character.obj
+         Release\RPG_driver.obj
+         Generating code
+     1>c:\users\gabe\documents\visual studio 2010\projects\rpg\rpg\fighter_character.h(63): warning C4715: 'Fighter::FindAC' : not all control paths return a value
+     1>c:\users\gabe\documents\visual studio 2010\projects\rpg\rpg\fighter_character.h(51): warning C4715: 'Fighter::FindAttackBonus' : not all control paths return a value
+     1>c:\users\gabe\documents\visual studio 2010\projects\rpg\rpg\fighter_character.h(39): warning C4715: 'Fighter::FindAttackDie' : not all control paths return a value
+     1>c:\users\gabe\documents\visual studio 2010\projects\rpg\rpg\fighter_character.h(27): warning C4715: 'Fighter::FindHitDie' : not all control paths return a value
+         Finished generating code
+         RPG.vcxproj -> C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\Release\RPG.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\Release\RPG.exe;#1" /manifest Release\RPG.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\RPG.unsuccessfulbuild".
+         Touching "Release\RPG.lastbuildstate".
+     1>Done Building Project "C:\Users\Gabe\documents\visual studio 2010\Projects\RPG\RPG\RPG.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.65
