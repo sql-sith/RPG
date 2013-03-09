@@ -12,6 +12,7 @@ int main() {
 	inFile.open("dungeon.dat");
 	char moveChar;
 
+	// CAL, 8-mar-2013:  I have added this line, ha!
 	Derpola = Dungeon(inFile);
 	cout << Derpola.GetDescription() << endl;
 	while (cin >> moveChar) {
